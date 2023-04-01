@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imperial Tutoring</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #3f3f3f;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #fff;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: #333;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    footer {
+      background-color: #3f3f3f;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Imperial Tutoring</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to Imperial Tutoring</h2>
+      <p>We provide high-quality tutoring services to students in the DMV area.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Imperial Tutoring is a nonprofit organization dedicated to helping students achieve their academic goals. Our team of experienced tutors offers personalized instruction in various subjects for students of all ages.</p>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <ul>
+        <li>Math Tutoring</li>
+        <li>Science Tutoring</li>
+        <li>English Tutoring</li>
+        <li>History Tutoring</li>
+        <li>Test Prep</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: info@imperialtutoring.org</p>
+      <p>Phone: (123) 456-7890</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2023 Imperial Tutoring. All rights reserved.
+  </footer>
+</body>
+</html>
